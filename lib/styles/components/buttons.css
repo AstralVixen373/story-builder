@@ -1,0 +1,41 @@
+/* =========================
+   BUTTONS
+========================= */
+
+button,
+.btn {
+  padding: 8px 12px;
+  font-size: 13px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #4a6cf7;
+  color: white;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: opacity 0.2s ease;
+}
+
+button:hover,
+.btn:hover {
+  opacity: 0.75;
+}
+
+button.danger {
+  background: #ff4d4d;
+}
+
+/* =========================
+   TITLE EDITOR
+========================= */
+
+.edit-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0;
+}

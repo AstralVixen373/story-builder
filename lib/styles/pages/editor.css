@@ -1,0 +1,36 @@
+/* =========================
+   EDITOR LAYOUT
+========================= */
+
+.scene-title {
+  margin-bottom: 10px;
+}
+
+.scene-content {
+  min-height: 400px;
+}
+
+.scene-title,
+.scene-content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* =========================
+   TITLE EDITOR
+========================= */
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0 20px;
+}
+
+.title-input {
+  display: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

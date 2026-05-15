@@ -1,0 +1,20 @@
+/* =========================
+   DASHBOARD (HOME)
+========================= */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+}
+
+.stat-card h3 {
+  font-size: 24px;
+  margin: 0;
+}

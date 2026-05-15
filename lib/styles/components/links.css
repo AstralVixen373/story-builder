@@ -1,0 +1,93 @@
+/* =========================
+   LINKS SYSTEM
+========================= */
+
+.links {
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.link-tag {
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  margin-top: 5px;
+  background: #f2f2f2;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link-tag button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+
+/* =========================
+   LINK MANAGER TITLE
+========================= */
+
+.links::before {
+  content: "Link Manager";
+  display: block;
+
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* =========================
+   LAYOUT ROW
+========================= */
+
+.links-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  width: 100%;
+}
+
+.links select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  flex: 1;
+
+  background: white;
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+
+  padding: 8px 12px;
+
+  max-width: 240px;
+  height: 36px;
+
+  cursor: pointer;
+}
+
+.links button {
+  flex: 1;
+  max-width: 80px;
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+}
