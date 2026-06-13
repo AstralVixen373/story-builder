@@ -19,11 +19,11 @@
   align-items: center;
   justify-content: center;
 
-  background: white;
-  border: 2px dashed #ccd3e0;
-  border-radius: 12px;
+  background: var(--color-bg);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-lg);
 
-  color: #666;
+  color: var(--color-text-light);
   font-size: 14px;
   cursor: pointer;
 
@@ -31,8 +31,8 @@
 }
 
 .avatar-placeholder:hover {
-  border-color: #4a6cf7;
-  color: #4a6cf7;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* IMAGE */
@@ -45,10 +45,10 @@
 
   object-fit: contain;
 
-  border-radius: 12px;
-  border: 1px solid #ddd;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
 
-  background: white;
+  background: var(--color-bg);
 }
 
 .avatar-actions {

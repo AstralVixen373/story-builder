@@ -2,12 +2,15 @@
 @import "base/layout.css";
 @import "base/utilities.css";
 
+/* THEME */
+@import "themes/variables.css";
+
 /* COMPONENTS */
 @import "components/avatar.css";
 @import "components/buttons.css";
 @import "components/cards.css";
-@import "components/forms.css";
 @import "components/graph.css";
+@import "components/inputs.css";
 @import "components/links.css";
 @import "components/navigation.css";
 @import "components/toolbar.css";

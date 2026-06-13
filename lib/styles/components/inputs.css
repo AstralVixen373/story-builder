@@ -1,18 +1,6 @@
 /* =========================
-   FORMS / INPUTS
+   INPUTS
 ========================= */
-
-form,
-.search-bar {
-  display: flex;
-  gap: 10px;
-
-  margin-bottom: 20px;
-  padding: 15px;
-
-  background: white;
-  border-radius: 8px;
-}
 
 input,
 textarea {
@@ -21,12 +9,12 @@ textarea {
 
   padding: 10px;
 
-  font-family: inherit;
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.6;
 
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
   outline: none;
 
   resize: vertical;
@@ -34,7 +22,7 @@ textarea {
 }
 
 input:focus {
-  border-color: #4a6cf7;
+  border-color: var(--color-primary);
 }
 
 textarea {

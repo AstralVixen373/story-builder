@@ -12,7 +12,7 @@
 
 .link-tag {
   display: flex;
-  font-family: Arial, sans-serif;
+  font-family: var(--main-font);
   font-size: 16px;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@
   content: "Link Manager";
   display: block;
 
-  font-family: Arial, sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 20px;
 
@@ -66,13 +66,13 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  font-family: Arial, sans-serif;
+  font-family: var(--main-font);
   font-size: 16px;
 
   flex: 1;
 
   background: white;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border);
 
   border-radius: 8px;
 

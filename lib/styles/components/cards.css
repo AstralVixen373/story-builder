@@ -6,12 +6,12 @@
   padding: 16px;
   margin-bottom: 12px;
 
-  background: white;
-  border-radius: 12px;
+  background: var(--color-bg);
+  border-radius: var(--radius-lg);
 
   cursor: pointer;
 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px var(--color-shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -42,6 +42,6 @@
 .stat-card:hover,
 .progress-card:hover {
   transform: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px var(--color-shadow);
   cursor: default;
 }

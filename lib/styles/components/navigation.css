@@ -30,5 +30,5 @@
 }
 
 .main-nav a.active {
-  color: #4a6cf7;
+  color: var(--color-primary);
 }

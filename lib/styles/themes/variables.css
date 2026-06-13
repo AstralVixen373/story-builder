@@ -1,0 +1,16 @@
+:root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #4a6cf7;
+    --color-danger: #ff4d4d;
+    --color-bg: #f7f7fb;
+    --color-border: #ddd;
+    --color-active-node: #ffcc00;
+    --color-text: ;
+    --color-text-light: #666666;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #0000000d;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+}

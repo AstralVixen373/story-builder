@@ -3,11 +3,11 @@
 ========================= */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--main-font);
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background: #f7f7fb;
+  background: var(--color-bg);
 }
 
 .title-wrapper h2 {
