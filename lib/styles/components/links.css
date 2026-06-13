@@ -5,7 +5,7 @@
 .links {
   margin-top: 20px;
   padding: 10px;
-  background: white;
+  background: var(--color-bg);
   border-radius: 8px;
   width: 100%;
 }
@@ -18,7 +18,7 @@
   align-items: center;
   padding: 10px 10px;
   margin-top: 5px;
-  background: #f2f2f2;
+  background: var(--color-border);
   border-radius: 6px;
   cursor: pointer;
 }
@@ -27,7 +27,7 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  color: red;
+  color: var(--color-danger);
 }
 
 
@@ -44,7 +44,7 @@
   font-size: 20px;
 
   margin-bottom: 20px;
-  color: #333;
+  color: var(--color-text);
 }
 
 /* =========================
@@ -71,7 +71,7 @@
 
   flex: 1;
 
-  background: white;
+  background: var(--color-bg);
   border: 1px solid var(--color-border);
 
   border-radius: 8px;

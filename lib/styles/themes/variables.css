@@ -1,16 +1,132 @@
+/* Cool (default) colour theme */
 :root {
     --main-font: Arial, sans-serif;
-    --color-primary: #4a6cf7;
-    --color-danger: #ff4d4d;
-    --color-bg: #f7f7fb;
-    --color-border: #ddd;
-    --color-active-node: #ffcc00;
-    --color-text: ;
-    --color-text-light: #666666;
+    --color-primary: #3b82f6;
+    --color-danger: #ef4444;
+    --color-bg: #f1f5f9;
+    --color-bg-hover: #e2e8f0;
+    --color-border: #cbd5e1;
+    --color-active-node: #f59e0b;
+    --color-text: #0f172a;
+    --color-text-light: #64748b;
     --color-text-buttons: #ffffff;
-    --color-shadow: #0000000d;
+    --color-shadow: #0f172a0d;
     --radius-sm: 6px;
     --radius-md: 8px;
     --radius-lg: 12px;
     --radius-xl: 16px;
 }
+ 
+/* Warm colour theme */
+/* :root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #b85c38;
+    --color-danger: #d94040;
+    --color-bg: #faf6f0;
+    --color-bg-hover: #f0e8dc;
+    --color-border: #d4c5b0;
+    --color-active-node: #e8a835;
+    --color-text: #2c1e14;
+    --color-text-light: #8c7a6b;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #2c1e140d;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+} */
+
+/* Forest / Moss colour theme */
+/* :root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #2d6a4f;
+    --color-danger: #c94040;
+    --color-bg: #f0f4f0;
+    --color-bg-hover: #dce8de;
+    --color-border: #b0c8b4;
+    --color-active-node: #d4a017;
+    --color-text: #043a10;
+    --color-text-light: #5a7a62;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #1a2e1e0d;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+} */
+
+/* Rose / Blush colour theme */
+/* :root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #be5985;
+    --color-danger: #d94040;
+    --color-bg: #fdf2f7;
+    --color-bg-hover: #f5dce8;
+    --color-border: #e8c0d4;
+    --color-active-node: #d4a017;
+    --color-text: #2e1420;
+    --color-text-light: #8a6070;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #2e14200d;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+} */
+
+/* Lavender colour theme */
+/* :root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #8b6cc8;
+    --color-danger: #d94060;
+    --color-bg: #f8f5ff;
+    --color-bg-hover: #ede8f8;
+    --color-border: #d4c8ee;
+    --color-active-node: #f0c040;
+    --color-text: #1e1428;
+    --color-text-light: #7a6a96;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #1e14280d;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+} */
+
+/* Dark colour theme */
+ /* :root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #7c6af5;
+    --color-danger: #f87171;
+    --color-bg: #16162a;
+    --color-bg-hover: #22223a;
+    --color-border: #2e2e50;
+    --color-active-node: #fbbf24;
+    --color-text: #e8e8f8;
+    --color-text-light: #8888bb;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #00000040;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+} */
+
+/* Midnight / Teal colour theme */
+/* :root {
+    --main-font: Arial, sans-serif;
+    --color-primary: #0d9488;
+    --color-danger: #f87171;
+    --color-bg: #0f1923;
+    --color-bg-hover: #18293a;
+    --color-border: #1e3a4f;
+    --color-active-node: #fbbf24;
+    --color-text: #e0eaf5;
+    --color-text-light: #6a9ab5;
+    --color-text-buttons: #ffffff;
+    --color-shadow: #00000040;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+} */
